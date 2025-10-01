@@ -44,10 +44,11 @@ public class CellPhoneApplication {
 
         CellPhone phone3 = new CellPhone(
                 123456789,
-                "Iphone 16",
                 "AT&T",
-                "912-123-7475",
-                "Mc.Jagger"
+                "Mc.Jagger",
+                "Iphone 16",
+                "912-123-7475"
+
         );
 
         display(phone);
