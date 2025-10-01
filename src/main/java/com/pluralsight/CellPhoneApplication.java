@@ -47,7 +47,7 @@ public class CellPhoneApplication {
 
         System.out.println("\n Phone Calls ");
 
-        phone.dial(phone.getPhoneNumber());
+        phone.dial(phone2.getPhoneNumber());
         phone2.dial(phone.getPhoneNumber());
 
         scanner.close();
