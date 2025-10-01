@@ -19,13 +19,10 @@ public class CellPhoneApplication {
         phone.setCarrier(scanner.nextLine());
 
         System.out.println("what is the phone number: ");
-        phone.setPhoneNumber(String.valueOf(scanner.nextInt()));
+        phone.setPhoneNumber(scanner.nextLine());
 
         System.out.println("who is the owner of the phone: ");
-        phone.setOwner(String.valueOf(scanner.nextInt()));
-
-        System.out.println("what is the serial number: ");
-        phone.setSerialNumber(scanner.nextInt());
+        phone.setOwner(scanner.nextLine());
 
         System.out.println("\nCellPhone Detaills");
         System.out.println("Serial Number: " + phone.getSerialNumber());
