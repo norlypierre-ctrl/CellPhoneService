@@ -42,13 +42,26 @@ public class CellPhoneApplication {
         System.out.println("who is the owner of the 2 phone: ");
         phone2.setOwner(scanner.nextLine());
 
+        CellPhone phone3 = new CellPhone(
+                123456789,
+                "Iphone 16",
+                "AT&T"
+                "912-123-7475"
+                "Mc.Jagger"
+        );
+
+
+
+
         display(phone);
         display(phone2);
+        display(phone3);
 
         System.out.println("\n Phone Calls ");
 
         phone.dial(phone2.getPhoneNumber());
-        phone2.dial(phone.getPhoneNumber());
+        phone2.dial(phone3.getPhoneNumber());
+        phone3.dial(phone.getPhoneNumber());
 
         scanner.close();
     }
